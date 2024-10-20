@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registreringsinformasjon for ny ansatt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .email-container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 20px;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+    }
+
+    footer p {
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="email-container">
+    <h2>Et nytt skjema sendes inn av: <b>{{name}}</b></h2>
+    <p>Nedenfor er detaljene for den mottatte informasjonen:</p>
+    <ul>
+      <li><strong>E-post:</strong> {{email}}</li>
+      <li><strong>Telefonnummer:</strong> {{phone}}</li>
+      <li><strong>Fødselsdato:</strong> {{birth_date}}</li>
+      <li><strong>Stillingstittel:</strong> {{job_title}}</li>
+      <li><strong>Tilmeldingsdato:</strong> {{joining_date}}</li>
+      <li><strong>Bankens navn:</strong> {{bank_name}}</li>
+      <li><strong>Kontonummer:</strong> {{account_number}}</li>
+    </ul>
+    <p>Hvis du har spørsmål, ta kontakt med den ansatte direkte.</p>
+    
+    <footer>
+      <p>Med vennlig hilsen,</p>
+      <p>IT-teamet<br>Wenaas Workwear AS</p>
+    </footer>
+  </div>
+</body>
+
+</html>

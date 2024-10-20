@@ -1,0 +1,59 @@
+/* styles/globals.css */
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for larger buttons */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+    margin-right: 10px;
+}
+
+.actions button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.actions button:disabled {
+    background-color: #ccc; /* Gray background for disabled state */
+    cursor: not-allowed; /* Not-allowed cursor for disabled state */
+}
+
+.error {
+    color: red;
+    font-size: 0.875rem;
+    padding-left: 10px;
+    font-weight: bold; /* Added this line for bold font */
+}
+
+.required-star {
+    color: red;
+}
+
+.thanks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f4f8; /* Light background color */
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    color: #4caf50; /* Green color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    font-size: 1.5rem;
+    color: #555; /* Dark grey for the paragraph */
+  }
+  

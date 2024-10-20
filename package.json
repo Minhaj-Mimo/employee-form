@@ -1,0 +1,23 @@
+{
+  "name": "sd-employee-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:html": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "firebase": "^10.14.1",
+    "jquery": "^3.6.3",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.27.0",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}

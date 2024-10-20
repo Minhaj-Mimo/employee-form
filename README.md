@@ -1,6 +1,4 @@
-<p align="center">
-    <img src="path_to_your_logo" alt="Logo" width="150">
-</p>
+
 
 <h1 align="center">Ny Ansatte Registreringsskjema</h1>
 
